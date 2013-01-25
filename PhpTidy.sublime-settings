@@ -1,7 +1,10 @@
 {
-   //Filetypes that PhpTidy can run on.
-   "filetypes": [".php", ".module", ".inc"],
+    // Location of PHP binary, update this
+    "php_path": "php",
 
-   //Selected Tidy Type (phptidy, wp)
-   "tidytype": "wp"
+    // Filetypes that PhpTidy can run on.
+    "filetypes": [".php", ".module", ".inc"],
+
+    // Selected Tidy File (phptidy.php, wp-phptidy.php, ci-phptidy.php, phptidy-coda.php)
+    "tidyfile": "wp-phptidy.php"
 }
