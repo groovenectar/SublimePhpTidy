@@ -1,5 +1,18 @@
 [
     {
+        "caption": "Tools",
+        "mnemonic": "t",
+        "id": "tools",
+        "children":
+        [
+            {
+                "id": "phpTdy",
+                "caption": "Tidy PHP",
+                "command": "php_tidy"
+            }
+        ]
+    },
+    {
         "caption": "Preferences",
         "mnemonic": "n",
         "id": "preferences",
